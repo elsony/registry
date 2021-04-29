@@ -1,6 +1,6 @@
 [
   {
-    "name": "maven",
+    "name": "java-maven",
     "displayName": "Maven Java",
     "description": "Upstream Maven and OpenJDK 11",
     "tags": [
@@ -10,13 +10,100 @@
     "projectType": "maven",
     "language": "java",
     "links": {
-      "self": "/devfiles/maven/devfile.yaml"
+      "self": "/devfiles/java-maven/devfile.yaml"
+    }
+  },
+  {
+    "name": "java-openliberty",
+    "displayName": "Open Liberty",
+    "description": "Open Liberty microservice in Java",
+    "projectType": "docker",
+    "language": "java",
+    "links": {
+      "self": "/devfiles/java-openliberty/devfile.yaml"
+    }
+  },
+  {
+    "name": "java-quarkus",
+    "displayName": "Quarkus Java",
+    "description": "Upstream Quarkus with Java+GraalVM",
+    "tags": [
+      "Java",
+      "Quarkus"
+    ],
+    "projectType": "quarkus",
+    "language": "java",
+    "links": {
+      "self": "/devfiles/java-quarkus/devfile.yaml"
+    }
+  },
+  {
+    "name": "java-springboot",
+    "displayName": "Spring Boot®",
+    "description": "Spring Boot® using Java",
+    "tags": [
+      "Java",
+      "Spring"
+    ],
+    "globalMemoryLimit": "2674Mi",
+    "icon": "https://www.eclipse.org/che/images/logo-eclipseche.svg",
+    "projectType": "spring",
+    "language": "java",
+    "links": {
+      "self": "/devfiles/java-springboot/devfile.yaml"
+    }
+  },
+  {
+    "name": "java-vertx",
+    "displayName": "Vert.x Java",
+    "description": "Upstream Vert.x using Java",
+    "tags": [
+      "Java",
+      "Vert.x"
+    ],
+    "projectType": "vertx",
+    "language": "java",
+    "links": {
+      "self": "/devfiles/java-vertx/devfile.yaml"
+    }
+  },
+  {
+    "name": "java-wildfly",
+    "displayName": "WildFly Java",
+    "description": "Upstream WildFly",
+    "tags": [
+      "Java",
+      "WildFly"
+    ],
+    "projectType": "wildfly",
+    "language": "java",
+    "links": {
+      "self": "/devfiles/java-wildfly/devfile.yaml"
+    }
+  },
+  {
+    "name": "java-wildfly-bootable-jar",
+    "displayName": "WildFly Bootable Jar",
+    "description": "Java stack with WildFly in bootable Jar mode, OpenJDK 11 and Maven 3.5",
+    "tags": [
+      "RHEL8",
+      "Java",
+      "OpenJDK",
+      "Maven",
+      "WildFly",
+      "Microprofile",
+      "WildFly Bootable"
+    ],
+    "projectType": "WildFly",
+    "language": "java",
+    "links": {
+      "self": "/devfiles/java-wildfly-bootable-jar/devfile.yaml"
     }
   },
   {
     "name": "nodejs",
-    "displayName": "NodeJS Express Web Application",
-    "description": "Stack with NodeJS 10",
+    "displayName": "NodeJS Runtime",
+    "description": "Stack with NodeJS 12",
     "tags": [
       "NodeJS",
       "Express",
@@ -29,43 +116,32 @@
     }
   },
   {
-    "name": "openLiberty",
-    "displayName": "Open Liberty",
-    "description": "Open Liberty microservice in Java",
-    "projectType": "docker",
-    "language": "java",
+    "name": "python",
+    "displayName": "Python",
+    "description": "Python Stack with Python 3.7",
+    "tags": [
+      "Python",
+      "pip"
+    ],
+    "projectType": "python",
+    "language": "python",
     "links": {
-      "self": "/devfiles/openLiberty/devfile.yaml"
+      "self": "/devfiles/python/devfile.yaml"
     }
   },
   {
-    "name": "quarkus",
-    "displayName": "Quarkus Java",
-    "description": "Upstream Quarkus with Java+GraalVM",
+    "name": "python-django",
+    "displayName": "Django",
+    "description": "Python3.7 with Django",
     "tags": [
-      "Java",
-      "Quarkus"
+      "Python",
+      "pip",
+      "Django"
     ],
-    "projectType": "quarkus",
-    "language": "java",
+    "projectType": "django",
+    "language": "python",
     "links": {
-      "self": "/devfiles/quarkus/devfile.yaml"
-    }
-  },
-  {
-    "name": "springBoot",
-    "displayName": "Spring Boot®",
-    "description": "Spring Boot® using Java",
-    "tags": [
-      "Java",
-      "Spring"
-    ],
-    "globalMemoryLimit": "2674Mi",
-    "icon": "https://www.eclipse.org/che/images/logo-eclipseche.svg",
-    "projectType": "spring",
-    "language": "java",
-    "links": {
-      "self": "/devfiles/springBoot/devfile.yaml"
+      "self": "/devfiles/python-django/devfile.yaml"
     }
   }
 ]
